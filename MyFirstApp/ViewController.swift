@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func changeImage(_ sender: Any) {
+        heroImage.image = UIImage(named: "metallica_master.png")
     }
     
 }
